@@ -1,4 +1,5 @@
-UnknownDiagramError: No diagram type detected matching given configuration for text: ```mermaid
+```mermaid
+%%{init: {"flowchart": {"curve": "linear"}} }%%
 graph TD
     Start([开始]) --> Login[登录页面]
     Login --> Input[输入账号密码]
@@ -47,3 +48,4 @@ graph TD
     RequestRec -->|获取推荐数据| System
     RequestRec --> ShowRec[显示推荐结果]
     AddToCart --> Cart
+```
